@@ -1,0 +1,26 @@
+ALFA:Gomez Vignolles Juan Pablo
+BETA: Martínez	Federico 
+GAMMA: Avalo Mauro
+
+E) Lista de comandos: 
+PUNTO 2:
+GAMMA(Avalo Mauro): 
+	1) git clone https://github.com/FedevMartinez/TP_SO_i2_Equipo_108.git
+	2) git add .
+	3) git commit -m "El mensaje en cuestión"
+	4) git push
+PUNTO 3:
+ALFA(Gomez Vignolles Juan Pablo):
+	1) git clone https://github.com/FedevMartinez/TP_SO_i2_Equipo_108.git
+	2) git add .
+	3) git commit -m "El mensaje en cuestión"
+	4) git push
+PUNTO 5:
+GAMMA Y ALFA:
+	1) git remote add fede https://github.com/FedevMartinez/TP_SO_i2_Equipo_108.git
+
+	2)git fetch fede
+
+	3) git merge fede/main
+
+	4) git push origin main
