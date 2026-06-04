@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ALFA: Gomez Vignolles Juan Pablo, 112.243.104.225, 11:58 a. m
+=======
+Gamma: Avalo Mauro, 194.187.0.1, 11:46 a. m.
+>>>>>>> fede/main

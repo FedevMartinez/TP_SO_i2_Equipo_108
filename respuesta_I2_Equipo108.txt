@@ -1,5 +1,6 @@
 ALFA:Gomez Vignolles Juan Pablo
 BETA: Martínez	Federico 
+<<<<<<< HEAD
 GAMMA: Avalo Mauro
 
 E) Lista de comandos: 
@@ -24,3 +25,84 @@ GAMMA Y ALFA:
 	3) git merge fede/main
 
 	4) git push origin main
+=======
+GAMMA: Avalo Mauro 
+a- Paso por paso:
+git remote add nombre_usuario url_repo
+
+git fetch nombre_usuario
+
+git merge nombre_usuario/main 
+
+git push origin main
+
+git add .
+
+git commit -m "mensaje"
+
+git push
+
+b- Sí, ALFA puede actualizar su fork con el estado del fork de GAMMA. Git permite conectar cualquier repositorio entre sí, no solo con el de BETA (el original). Para lograrlo, ALFA simplemente tiene que agregar el GitHub de GAMMA como un nuevo "remoto"
+
+b- Sí, GAMMA puede actualizar su fork con el estado del fork de ALFA. Git permite conectar cualquier repositorio entre sí, no solo con el de BETA (el original). Para lograrlo, GAMMA simplemente tiene que agregar el GitHub de ALFA como un nuevo "remoto"
+
+d- No, no se pierden, se realiza una combinación con los nuevos cambios.
+>>>>>>> fede/main
+
+==============================================================================================
+
+E) Alfa (Gomez Vignolles Juan Pablo) 
+Lista de comandos: 
+PUNTO 2:
+GAMMA(Avalo Mauro): 
+    1) git clone https://github.com/Mro-ep/TP_SO_i2_Equipo_108.git
+    2) git add .
+    3) git commit -m "El mensaje en cuestión"
+    4) git push
+PUNTO 3:
+ALFA(Gomez Vignolles Juan Pablo):
+    1) git clone https://github.com/Gomezvignollesjuanpablo/TP_SO_i1_Equipo_108.git
+    2) git add .
+    3) git commit -m "El mensaje en cuestión"
+    4) git push
+PUNTO 4:
+BETA(Federico Martinez)
+    1) git clone https://github.com/FedevMartinez/TP_SO_i2_Equipo_108.git
+    2) git add .
+    3) git commit -m "El mensaje en cuestión"
+    4) git push
+PUNTO 5:
+GAMMA Y ALFA:
+    1) git remote add nombre_usuario url_repo
+    2) git merge nombre_usuario/main 
+    3) git push origin main
+    4) git add .
+    5) git commit -m "mensaje"
+    6) git push
+
+Comandos respuestas:
+BETA(Martinez Federico):
+    1) git add.
+    2) git commit -m "El mensaje en cuestión"
+    3) git push
+GAMMA(Avalo Mauro):
+    1) git fetch nombre_usuario
+    2) git merge nombre_usuario/main 
+    3) git push origin main
+    4) git add .
+    5) git commit -m "mensaje"
+    6) git push
+ALFA(Gomez Vignolles Juan Pablo):
+    1) git fetch nombre_usuario
+    2) git merge nombre_usuario/main 
+    3) git push origin main
+    4) git add .
+    5) git commit -m "mensaje"
+    6) git push
+BETA(Martinez Federico):
+    1) git fetch nombre_usuario
+    2) git merge nombre_usuario/main 
+    3) git push origin main
+    4) git add .
+    5) git commit -m "mensaje"
+    6) git push
