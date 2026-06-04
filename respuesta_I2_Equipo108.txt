@@ -22,7 +22,7 @@ git push
 
 b- Sí, ALFA puede actualizar su fork con el estado del fork de GAMMA. Git permite conectar cualquier repositorio entre sí, no solo con el de BETA (el original). Para lograrlo, ALFA simplemente tiene que agregar el GitHub de GAMMA como un nuevo "remoto"
 
-b- Sí, GAMMA puede actualizar su fork con el estado del fork de ALFA. Git permite conectar cualquier repositorio entre sí, no solo con el de BETA (el original). Para lograrlo, GAMMA simplemente tiene que agregar el GitHub de ALFA como un nuevo "remoto"
+c- Sí, GAMMA puede actualizar su fork con el estado del fork de ALFA. Git permite conectar cualquier repositorio entre sí, no solo con el de BETA (el original). Para lograrlo, GAMMA simplemente tiene que agregar el GitHub de ALFA como un nuevo "remoto"
 
 d- No, no se pierden, se realiza una combinación con los nuevos cambios.
 >>>>>>> fede/main
